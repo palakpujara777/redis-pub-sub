@@ -1,0 +1,7 @@
+Code,CallingNumber,Capital,Country
+91,9876543210,New Delhi,India
+1,2025550182,Washington D.C.,USA
+44,7700908765,London,UK
+91,9876543211,Mumbai,India
+81,9091234567,Tokyo,Japan
+3,7700908767,Manchester,Unknown

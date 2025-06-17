@@ -1,0 +1,9 @@
+Code,CallingNumber,Capital
+91,9876543210,New Delhi
+1,2025550182,Washington D.C.
+44,7700908765,London
+91,9876543211,Mumbai
+1,2025550182,New York
+81,9091234567,Tokyo
+44,7700908765,Manchester
+3,7700908767,Manchester
