@@ -30,7 +30,7 @@ namespace CallProcess.Processing
                 /***** Initialize CallManager (load cache to memory) *****/
                 await _callManager.Init();
 
-
+                var test = _callManager.GetByCode("001");
                 // Tesgting purpose
 
                 /***** Start listening to pub-sub updates *****/
