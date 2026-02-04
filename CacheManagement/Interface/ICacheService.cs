@@ -27,5 +27,6 @@ namespace CacheManagement.Interface
         Task<bool> RemoveHashAsync(string mainKey);
 
         Task<bool> PublishAsync(string channel, string message);
+        Task SubscribeAsync(string deletePublishChannel, Action<object, object> value);
     }
 }

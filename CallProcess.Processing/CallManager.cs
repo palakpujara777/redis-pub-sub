@@ -97,6 +97,11 @@ namespace CallProcess.Processing
         {
             try
             {
+                if( "test" == null)
+                {
+                    return;
+                }
+
                 /***** Get country name by code received from publisher *****/
                 _inMemoryData.TryRemove(message, out string countryName);
             }
