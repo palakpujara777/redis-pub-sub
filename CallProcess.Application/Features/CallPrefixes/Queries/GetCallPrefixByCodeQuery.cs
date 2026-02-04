@@ -2,7 +2,7 @@
 {
     public class GetCallPrefixByCodeQuery
     {
-        public string Code { get; set; }
+        public string Code { get; }
 
         public GetCallPrefixByCodeQuery(string code)
         {

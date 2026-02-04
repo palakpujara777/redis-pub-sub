@@ -13,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<ICallPrefixRepository, InMemoryCallPrefixRepository>();
+builder.Services.AddScoped<CheckCallPrefixExistsHandler>();
 builder.Services.AddScoped<GetAllCallPrefixesHandler>();
 builder.Services.AddScoped<GetCallPrefixByCodeHandler>();
 builder.Services.AddScoped<AddOrUpdateCallPrefixHandler>();
