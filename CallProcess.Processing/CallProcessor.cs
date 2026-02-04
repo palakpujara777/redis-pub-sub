@@ -30,6 +30,9 @@ namespace CallProcess.Processing
                 /***** Initialize CallManager (load cache to memory) *****/
                 await _callManager.Init();
 
+
+                // Tesgting purpose
+
                 /***** Start listening to pub-sub updates *****/
                 await _callManager.Start();
 
